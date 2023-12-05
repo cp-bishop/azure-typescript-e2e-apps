@@ -35,6 +35,8 @@ jobs:
           app_location: "azure-upload-file-to-storage/app" # App source code path
           api_location: "azure-upload-file-to-storage/api" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
+        env:
+          NODE_VERSION: 18.12.0
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
