@@ -2,6 +2,9 @@
   "name": "upload-file-api",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "setup:core-tools": "npm i -g azure-functions-core-tools@4 --unsafe-perm true",
     "prestart": "npm run build",
